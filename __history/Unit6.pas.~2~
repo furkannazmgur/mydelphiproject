@@ -1,0 +1,54 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.Buttons;
+
+type
+  TForm6 = class(TForm)
+    Image1: TImage;
+    SpeedButton1: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    SpeedButton5: TSpeedButton;
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton4Click(Sender: TObject);
+    procedure SpeedButton5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+ uses unit1,unit2,unit3,unit4,unit5;
+procedure TForm6.SpeedButton2Click(Sender: TObject);
+begin
+form2.ADOTable1.Insert;
+form2.Show;
+close;
+end;
+
+procedure TForm6.SpeedButton4Click(Sender: TObject);
+begin
+close;
+form1.Close;
+form5.Show;
+end;
+
+procedure TForm6.SpeedButton5Click(Sender: TObject);
+begin
+          form1.Show;
+          close;
+end;
+
+end.

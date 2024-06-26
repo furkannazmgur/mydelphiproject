@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.903,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.434,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.076,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.071,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.228,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.407,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.333,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.936,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.075,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss\Unit4.pas</Transaction>
+    <Transaction>2024.01.15 22:14:27.873,=C:\Users\FURKAN\Documents\Embarcadero\Studio\Projects\irotekss21010208037FURKANNAZIMGÜR\Unit8.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+    <File Path="Unit8.pas"/>
+    <File Path="Unit8.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

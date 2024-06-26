@@ -1,0 +1,51 @@
+unit Unit7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm7 = class(TForm)
+    DBGrid1: TDBGrid;
+    procedure DBGrid1DrawColumnCell(Sender: TObject; const Rect: TRect;
+      DataCol: Integer; Column: TColumn; State: TGridDrawState);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+  uses unit1,unit2,unit3,unit4,unit5,unit6;
+
+procedure TForm7.FormShow(Sender: TObject);
+begin
+  form2.AdoTable1.Filter := 'alindi = True';
+  form2.AdoTable1.Filtered := True;
+
+
+end;
+procedure TForm7.DBGrid1DrawColumnCell(Sender: TObject; const Rect: TRect;
+  DataCol: Integer; Column: TColumn; State: TGridDrawState);
+begin
+
+  if (Column.Field <> nil) and (Column.Field.FieldName = 'alindi') then
+  begin
+
+    if Column.Field.AsBoolean then
+      DBGrid1.Canvas.TextOut(Rect.Left + 2, Rect.Top + 2, 'X')
+    else
+      DBGrid1.Canvas.FillRect(Rect);
+  end;
+end;
+
+
+end.
